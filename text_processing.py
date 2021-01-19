@@ -63,7 +63,7 @@ def no_vowels(input_string):
             >>> tp.normalize(input_string2)
             ''W lv Pythn!'
     """
-    vowels = ["a","e","i","o","u"]
+    vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
     
     for vowel in vowels:                                    # 문자열 안의 모음들을 제거
         input_string = input_string.replace(vowel, "")
